@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D809AFB11B0D1C6300BCD572 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D809AFB01B0D1C6300BCD572 /* InterfaceController.swift */; };
+		D809AFB31B0D1C6300BCD572 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D809AFB21B0D1C6300BCD572 /* NotificationController.swift */; };
+		D809AFB51B0D1C6300BCD572 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D809AFB41B0D1C6300BCD572 /* Images.xcassets */; };
+		D809AFB91B0D1C6300BCD572 /* Voicebooklet WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = D809AFB81B0D1C6300BCD572 /* Voicebooklet WatchKit App.app */; };
+		D809AFC11B0D1C6300BCD572 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D809AFBF1B0D1C6300BCD572 /* Interface.storyboard */; };
+		D809AFC31B0D1C6300BCD572 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D809AFC21B0D1C6300BCD572 /* Images.xcassets */; };
+		D809AFC61B0D1C6300BCD572 /* Voicebooklet WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D809AFAB1B0D1C6300BCD572 /* Voicebooklet WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D8D954011A1D3F5800FB647D /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D953FF1A1D3F5800FB647D /* Bolts.framework */; };
+		D8D954021A1D3F5800FB647D /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D954001A1D3F5800FB647D /* FacebookSDK.framework */; };
+		D8F8286B1A14450700ABA997 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F8286A1A14450700ABA997 /* main.m */; };
+		D8F8286E1A14450700ABA997 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F8286D1A14450700ABA997 /* AppDelegate.m */; };
+		D8F828711A14450700ABA997 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F828701A14450700ABA997 /* ViewController.m */; };
+		D8F828741A14450700ABA997 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8F828721A14450700ABA997 /* Main.storyboard */; };
+		D8F828791A14450700ABA997 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8F828771A14450700ABA997 /* LaunchScreen.xib */; };
+		D8F828851A14450700ABA997 /* VoicebookletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F828841A14450700ABA997 /* VoicebookletTests.m */; };
+		D8F8288F1A14462500ABA997 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8F8288E1A14462500ABA997 /* Images.xcassets */; };
+		D8F828981A1446B700ABA997 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F828941A1446B700ABA997 /* AudioToolbox.framework */; };
+		D8F828991A1446B700ABA997 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F828951A1446B700ABA997 /* AVFoundation.framework */; };
+		D8F828A31A14477800ABA997 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F828951A1446B700ABA997 /* AVFoundation.framework */; };
+		D8F828A41A14479600ABA997 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F828941A1446B700ABA997 /* AudioToolbox.framework */; };
+		D8F828AE1A14496D00ABA997 /* AcousticModelEnglish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D8F828AA1A14496D00ABA997 /* AcousticModelEnglish.bundle */; };
+		D8F828AF1A14496D00ABA997 /* AcousticModelSpanish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D8F828AB1A14496D00ABA997 /* AcousticModelSpanish.bundle */; };
+		D8F828B01A14496D00ABA997 /* OpenEars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F828AC1A14496D00ABA997 /* OpenEars.framework */; };
+		D8F828B11A14496D00ABA997 /* Slt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F828AD1A14496D00ABA997 /* Slt.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D809AFBA1B0D1C6300BCD572 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8F8285D1A14450600ABA997 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D809AFB71B0D1C6300BCD572;
+			remoteInfo = "Voicebooklet WatchKit App";
+		};
+		D809AFC41B0D1C6300BCD572 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8F8285D1A14450600ABA997 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D809AFAA1B0D1C6300BCD572;
+			remoteInfo = "Voicebooklet WatchKit Extension";
+		};
+		D8F8287F1A14450700ABA997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8F8285D1A14450600ABA997 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8F828641A14450600ABA997;
+			remoteInfo = Voicebooklet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D809AFCD1B0D1C6300BCD572 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D809AFC61B0D1C6300BCD572 /* Voicebooklet WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D809AFAB1B0D1C6300BCD572 /* Voicebooklet WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Voicebooklet WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D809AFAE1B0D1C6300BCD572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D809AFAF1B0D1C6300BCD572 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		D809AFB01B0D1C6300BCD572 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		D809AFB21B0D1C6300BCD572 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		D809AFB41B0D1C6300BCD572 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D809AFB81B0D1C6300BCD572 /* Voicebooklet WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Voicebooklet WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D809AFBE1B0D1C6300BCD572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D809AFC01B0D1C6300BCD572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D809AFC21B0D1C6300BCD572 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D8D953FF1A1D3F5800FB647D /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		D8D954001A1D3F5800FB647D /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		D8F828651A14450600ABA997 /* Voicebooklet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voicebooklet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8F8286A1A14450700ABA997 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8F8286C1A14450700ABA997 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D8F8286D1A14450700ABA997 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D8F8286F1A14450700ABA997 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D8F828701A14450700ABA997 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D8F828731A14450700ABA997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8F828781A14450700ABA997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D8F8287E1A14450700ABA997 /* VoicebookletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoicebookletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8F828841A14450700ABA997 /* VoicebookletTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoicebookletTests.m; sourceTree = "<group>"; };
+		D8F8288E1A14462500ABA997 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D8F828941A1446B700ABA997 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D8F828951A1446B700ABA997 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D8F828AA1A14496D00ABA997 /* AcousticModelEnglish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelEnglish.bundle; sourceTree = "<group>"; };
+		D8F828AB1A14496D00ABA997 /* AcousticModelSpanish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelSpanish.bundle; sourceTree = "<group>"; };
+		D8F828AC1A14496D00ABA997 /* OpenEars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenEars.framework; sourceTree = "<group>"; };
+		D8F828AD1A14496D00ABA997 /* Slt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Slt.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D809AFA81B0D1C6300BCD572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F828621A14450600ABA997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F828B11A14496D00ABA997 /* Slt.framework in Frameworks */,
+				D8F828A41A14479600ABA997 /* AudioToolbox.framework in Frameworks */,
+				D8F828A31A14477800ABA997 /* AVFoundation.framework in Frameworks */,
+				D8F828B01A14496D00ABA997 /* OpenEars.framework in Frameworks */,
+				D8D954021A1D3F5800FB647D /* FacebookSDK.framework in Frameworks */,
+				D8D954011A1D3F5800FB647D /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F8287B1A14450700ABA997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F828991A1446B700ABA997 /* AVFoundation.framework in Frameworks */,
+				D8F828981A1446B700ABA997 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D809AFAC1B0D1C6300BCD572 /* Voicebooklet WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D809AFB01B0D1C6300BCD572 /* InterfaceController.swift */,
+				D809AFB21B0D1C6300BCD572 /* NotificationController.swift */,
+				D809AFB41B0D1C6300BCD572 /* Images.xcassets */,
+				D809AFAD1B0D1C6300BCD572 /* Supporting Files */,
+			);
+			path = "Voicebooklet WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		D809AFAD1B0D1C6300BCD572 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D809AFAE1B0D1C6300BCD572 /* Info.plist */,
+				D809AFAF1B0D1C6300BCD572 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D809AFBC1B0D1C6300BCD572 /* Voicebooklet WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D809AFBF1B0D1C6300BCD572 /* Interface.storyboard */,
+				D809AFC21B0D1C6300BCD572 /* Images.xcassets */,
+				D809AFBD1B0D1C6300BCD572 /* Supporting Files */,
+			);
+			path = "Voicebooklet WatchKit App";
+			sourceTree = "<group>";
+		};
+		D809AFBD1B0D1C6300BCD572 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D809AFBE1B0D1C6300BCD572 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8F8285C1A14450600ABA997 = {
+			isa = PBXGroup;
+			children = (
+				D8F828941A1446B700ABA997 /* AudioToolbox.framework */,
+				D8F828951A1446B700ABA997 /* AVFoundation.framework */,
+				D8F828671A14450600ABA997 /* Voicebooklet */,
+				D8F828811A14450700ABA997 /* VoicebookletTests */,
+				D809AFAC1B0D1C6300BCD572 /* Voicebooklet WatchKit Extension */,
+				D809AFBC1B0D1C6300BCD572 /* Voicebooklet WatchKit App */,
+				D8F828661A14450600ABA997 /* Products */,
+				D8F828A91A14496D00ABA997 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D8F828661A14450600ABA997 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8F828651A14450600ABA997 /* Voicebooklet.app */,
+				D8F8287E1A14450700ABA997 /* VoicebookletTests.xctest */,
+				D809AFAB1B0D1C6300BCD572 /* Voicebooklet WatchKit Extension.appex */,
+				D809AFB81B0D1C6300BCD572 /* Voicebooklet WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8F828671A14450600ABA997 /* Voicebooklet */ = {
+			isa = PBXGroup;
+			children = (
+				D8F8286C1A14450700ABA997 /* AppDelegate.h */,
+				D8F8286D1A14450700ABA997 /* AppDelegate.m */,
+				D8F8286F1A14450700ABA997 /* ViewController.h */,
+				D8F828701A14450700ABA997 /* ViewController.m */,
+				D8F8288E1A14462500ABA997 /* Images.xcassets */,
+				D8F828721A14450700ABA997 /* Main.storyboard */,
+				D8F828771A14450700ABA997 /* LaunchScreen.xib */,
+				D8F828681A14450600ABA997 /* Supporting Files */,
+			);
+			path = Voicebooklet;
+			sourceTree = "<group>";
+		};
+		D8F828681A14450600ABA997 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8F8286A1A14450700ABA997 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8F828811A14450700ABA997 /* VoicebookletTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8F828841A14450700ABA997 /* VoicebookletTests.m */,
+				D8F828821A14450700ABA997 /* Supporting Files */,
+			);
+			path = VoicebookletTests;
+			sourceTree = "<group>";
+		};
+		D8F828821A14450700ABA997 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8F828A91A14496D00ABA997 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8D953FF1A1D3F5800FB647D /* Bolts.framework */,
+				D8D954001A1D3F5800FB647D /* FacebookSDK.framework */,
+				D8F828AA1A14496D00ABA997 /* AcousticModelEnglish.bundle */,
+				D8F828AB1A14496D00ABA997 /* AcousticModelSpanish.bundle */,
+				D8F828AC1A14496D00ABA997 /* OpenEars.framework */,
+				D8F828AD1A14496D00ABA997 /* Slt.framework */,
+			);
+			name = Frameworks;
+			path = Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D809AFAA1B0D1C6300BCD572 /* Voicebooklet WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D809AFCC1B0D1C6300BCD572 /* Build configuration list for PBXNativeTarget "Voicebooklet WatchKit Extension" */;
+			buildPhases = (
+				D809AFA71B0D1C6300BCD572 /* Sources */,
+				D809AFA81B0D1C6300BCD572 /* Frameworks */,
+				D809AFA91B0D1C6300BCD572 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D809AFBB1B0D1C6300BCD572 /* PBXTargetDependency */,
+			);
+			name = "Voicebooklet WatchKit Extension";
+			productName = "Voicebooklet WatchKit Extension";
+			productReference = D809AFAB1B0D1C6300BCD572 /* Voicebooklet WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		D809AFB71B0D1C6300BCD572 /* Voicebooklet WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D809AFCB1B0D1C6300BCD572 /* Build configuration list for PBXNativeTarget "Voicebooklet WatchKit App" */;
+			buildPhases = (
+				D809AFB61B0D1C6300BCD572 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Voicebooklet WatchKit App";
+			productName = "Voicebooklet WatchKit App";
+			productReference = D809AFB81B0D1C6300BCD572 /* Voicebooklet WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+		D8F828641A14450600ABA997 /* Voicebooklet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8F828881A14450700ABA997 /* Build configuration list for PBXNativeTarget "Voicebooklet" */;
+			buildPhases = (
+				D8F828611A14450600ABA997 /* Sources */,
+				D8F828621A14450600ABA997 /* Frameworks */,
+				D8F828631A14450600ABA997 /* Resources */,
+				D809AFCD1B0D1C6300BCD572 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D809AFC51B0D1C6300BCD572 /* PBXTargetDependency */,
+			);
+			name = Voicebooklet;
+			productName = Voicebooklet;
+			productReference = D8F828651A14450600ABA997 /* Voicebooklet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8F8287D1A14450700ABA997 /* VoicebookletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8F8288B1A14450700ABA997 /* Build configuration list for PBXNativeTarget "VoicebookletTests" */;
+			buildPhases = (
+				D8F8287A1A14450700ABA997 /* Sources */,
+				D8F8287B1A14450700ABA997 /* Frameworks */,
+				D8F8287C1A14450700ABA997 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8F828801A14450700ABA997 /* PBXTargetDependency */,
+			);
+			name = VoicebookletTests;
+			productName = VoicebookletTests;
+			productReference = D8F8287E1A14450700ABA997 /* VoicebookletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8F8285D1A14450600ABA997 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Joe Mohr";
+				TargetAttributes = {
+					D809AFAA1B0D1C6300BCD572 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					D809AFB71B0D1C6300BCD572 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					D8F828641A14450600ABA997 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					D8F8287D1A14450700ABA997 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = D8F828641A14450600ABA997;
+					};
+				};
+			};
+			buildConfigurationList = D8F828601A14450600ABA997 /* Build configuration list for PBXProject "Voicebooklet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8F8285C1A14450600ABA997;
+			productRefGroup = D8F828661A14450600ABA997 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8F828641A14450600ABA997 /* Voicebooklet */,
+				D8F8287D1A14450700ABA997 /* VoicebookletTests */,
+				D809AFAA1B0D1C6300BCD572 /* Voicebooklet WatchKit Extension */,
+				D809AFB71B0D1C6300BCD572 /* Voicebooklet WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D809AFA91B0D1C6300BCD572 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D809AFB91B0D1C6300BCD572 /* Voicebooklet WatchKit App.app in Resources */,
+				D809AFB51B0D1C6300BCD572 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D809AFB61B0D1C6300BCD572 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D809AFC11B0D1C6300BCD572 /* Interface.storyboard in Resources */,
+				D809AFC31B0D1C6300BCD572 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F828631A14450600ABA997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F8288F1A14462500ABA997 /* Images.xcassets in Resources */,
+				D8F828AF1A14496D00ABA997 /* AcousticModelSpanish.bundle in Resources */,
+				D8F828AE1A14496D00ABA997 /* AcousticModelEnglish.bundle in Resources */,
+				D8F828741A14450700ABA997 /* Main.storyboard in Resources */,
+				D8F828791A14450700ABA997 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F8287C1A14450700ABA997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D809AFA71B0D1C6300BCD572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D809AFB31B0D1C6300BCD572 /* NotificationController.swift in Sources */,
+				D809AFB11B0D1C6300BCD572 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F828611A14450600ABA997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F828711A14450700ABA997 /* ViewController.m in Sources */,
+				D8F8286E1A14450700ABA997 /* AppDelegate.m in Sources */,
+				D8F8286B1A14450700ABA997 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F8287A1A14450700ABA997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F828851A14450700ABA997 /* VoicebookletTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D809AFBB1B0D1C6300BCD572 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D809AFB71B0D1C6300BCD572 /* Voicebooklet WatchKit App */;
+			targetProxy = D809AFBA1B0D1C6300BCD572 /* PBXContainerItemProxy */;
+		};
+		D809AFC51B0D1C6300BCD572 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D809AFAA1B0D1C6300BCD572 /* Voicebooklet WatchKit Extension */;
+			targetProxy = D809AFC41B0D1C6300BCD572 /* PBXContainerItemProxy */;
+		};
+		D8F828801A14450700ABA997 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8F828641A14450600ABA997 /* Voicebooklet */;
+			targetProxy = D8F8287F1A14450700ABA997 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D809AFBF1B0D1C6300BCD572 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D809AFC01B0D1C6300BCD572 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		D8F828721A14450700ABA997 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8F828731A14450700ABA997 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8F828771A14450700ABA997 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8F828781A14450700ABA997 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D809AFC71B0D1C6300BCD572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Voicebooklet WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D809AFC81B0D1C6300BCD572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Voicebooklet WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D809AFC91B0D1C6300BCD572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Voicebooklet_WatchKit_Extension;
+				INFOPLIST_FILE = "Voicebooklet WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		D809AFCA1B0D1C6300BCD572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				IBSC_MODULE = Voicebooklet_WatchKit_Extension;
+				INFOPLIST_FILE = "Voicebooklet WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		D8F828861A14450700ABA997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8F828871A14450700ABA997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8F828891A14450700ABA997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+					/Users/joe/Documents/FacebookSDK,
+				);
+				INFOPLIST_FILE = Voicebooklet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D8F8288A1A14450700ABA997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+					/Users/joe/Documents/FacebookSDK,
+				);
+				INFOPLIST_FILE = Voicebooklet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D8F8288C1A14450700ABA997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					/Users/joe/Documents/FacebookSDK,
+					"$(PROJECT_DIR)/Framework",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VoicebookletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voicebooklet.app/Voicebooklet";
+			};
+			name = Debug;
+		};
+		D8F8288D1A14450700ABA997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					/Users/joe/Documents/FacebookSDK,
+					"$(PROJECT_DIR)/Framework",
+				);
+				INFOPLIST_FILE = VoicebookletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voicebooklet.app/Voicebooklet";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D809AFCB1B0D1C6300BCD572 /* Build configuration list for PBXNativeTarget "Voicebooklet WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D809AFC91B0D1C6300BCD572 /* Debug */,
+				D809AFCA1B0D1C6300BCD572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D809AFCC1B0D1C6300BCD572 /* Build configuration list for PBXNativeTarget "Voicebooklet WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D809AFC71B0D1C6300BCD572 /* Debug */,
+				D809AFC81B0D1C6300BCD572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8F828601A14450600ABA997 /* Build configuration list for PBXProject "Voicebooklet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8F828861A14450700ABA997 /* Debug */,
+				D8F828871A14450700ABA997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8F828881A14450700ABA997 /* Build configuration list for PBXNativeTarget "Voicebooklet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8F828891A14450700ABA997 /* Debug */,
+				D8F8288A1A14450700ABA997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8F8288B1A14450700ABA997 /* Build configuration list for PBXNativeTarget "VoicebookletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8F8288C1A14450700ABA997 /* Debug */,
+				D8F8288D1A14450700ABA997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8F8285D1A14450600ABA997 /* Project object */;
+}
